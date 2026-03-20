@@ -9,23 +9,16 @@ As a passionate F1 fan, I use this domain to master data science concepts—movi
 ## 🚀 The Learning Path
 
 ### 1. Fundamental ML & Data Engineering
-*   **[Learning the Ropes](file:///e:/F1%20Learn%20ML/learningTheRopes/)**: Getting started with `FastF1`, handling API telemetry, and visualizing driver pace.
-*   **[Intro to ML](file:///e:/F1%20Learn%20ML/introToML/)**: Exploring classification and regression.
-    *   `qualiy_predict.ipynb`: Predicting qualifying positions based on historical season performance.
-    *   `f1_ml.ipynb`: Core data cleaning and preprocessing workflows.
+*   **[Learning the Ropes](file:///e:/F1%20Learn%20ML/learningTheRopes/)**: API integration with `FastF1` for telemetry and pace visualization.
+*   **[Intro to ML](file:///e:/F1%20Learn%20ML/introToML/)**: Building predictive models with `Scikit-Learn`:
+    *   `regression.ipynb`: Predicting continuous lap times using tire life and track history.
+    *   `qualiy_predict.ipynb`: Multi-class classification (Q1/Q2/Q3) using **Random Forest** and **One-Hot Encoding**.
+    *   `f1_ml.ipynb`: Solving **data imbalance** in race winning predictions with **Logistic Regression**.
+*   **Core Skills**: Mastered **feature engineering** (Driver Form, Track Experience) and complex data joins with **Pandas/NumPy**.
 
 ### 2. Deep Learning & Computer Vision (Planned)
 *   *Upcoming*: Using CNNs to identify tire compounds from broadcast footage.
 *   *Upcoming*: LSTM/RNN networks for real-time race strategy prediction.
-
----
-
-## 🛠️ Technical Toolkit
-
-- **Data Handling:** `Pandas`, `NumPy`, `FastF1` (API Integration)
-- **Machine Learning:** `Scikit-Learn`, `XGBoost`
-- **Visualization:** `Matplotlib`, `Seaborn`, `Plotly`
-- **Environment:** `Jupyter`, `Python 3.x`, `Virtual Environments`
 
 ---
 
